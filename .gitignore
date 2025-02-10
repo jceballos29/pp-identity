@@ -39,6 +39,9 @@ Thumbs.db
 tmp/
 temp/
 
+node_modules/
+package-lock.json
+
 # Optional: Ignore dependency lock files at frontend or backend level if you ONLY want to track the root one (less common, usually commit lock files)
 # frontend/package-lock.json
 # backend/package-lock.json
