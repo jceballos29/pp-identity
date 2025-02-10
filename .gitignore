@@ -1,0 +1,44 @@
+# Node.js Backend
+backend/node_modules/
+backend/package-lock.json
+backend/npm-debug.log*
+backend/yarn-debug.log*
+backend/pnpm-debug.log*
+backend/.env
+backend/dist
+backend/build
+backend/logs
+
+# React Frontend (Vite)
+frontend/node_modules/
+frontend/package-lock.json
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/pnpm-debug.log*
+frontend/build
+frontend/dist
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+frontend/.env.*.local
+
+# General OS and IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Logs and temp files
+*.log
+tmp/
+temp/
+
+# Optional: Ignore dependency lock files at frontend or backend level if you ONLY want to track the root one (less common, usually commit lock files)
+# frontend/package-lock.json
+# backend/package-lock.json
